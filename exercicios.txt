@@ -1,0 +1,16 @@
+O número de comparações em uma pesquisa binária é sempre menor do que em uma pesquisa sequencial? Justifique sua resposta.
+Não, em geral, incluindo o pior caso, a binária faz menos comparações, porém caso o elemento esteja na primeira posição a sequencial será mais rápida
+além de que a binária depende do vetor estar ordenado
+
+Por que a busca binária pode ser mais eficiente do que a busca sequencial?
+Pois ela reduz pela metade o espaço de busca a cada comparação, enquanto a sequencial irá verificar todos os elementos
+
+Em quais situações a busca binária (em um vetor ordenado) pode ser inadequada?
+Vetores muito pequenos, ou em Vetores atualizados constantemente, necessitando sempre de ordenação
+
+Por que a análise de complexidade de um algoritmo é importante?
+Permite analisar a eficiência do código, podendo compará-lo com outras opções para escolher a melhor além de analisar a sua escalibilidade
+
+Considere um vetor de 1000 elementos. Para o pior caso, quantas comparações seriam realizadas pelos algoritmos de busca sequencial e binária?
+Sequencial: n comparações, n = 1000
+binária: log2 n, log2 1000 = aprox. 10
